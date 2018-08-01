@@ -1,0 +1,375 @@
+/*头部开始*/
+#header {
+    width: 100%;
+    height: 110px;
+    background: url(../images/headbg.jpg) repeat-x left bottom;
+}
+
+.logo {
+    width: 1210px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.logo_img {
+    display: block;
+    width: 160px;
+    height: 50px;
+    margin-top: 25px;
+    float: left;
+    background: url(../images/icon.png);
+}
+
+.logo>span {
+    display: block;
+    width: 110px;
+    height: 40px;
+    margin-top: 32px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+}
+
+.lgin {
+    float: right;
+    font-size: 16px;
+    color: #999999;
+    margin-top: 53px;
+}
+
+.lgin a {
+    color: #EE2222;
+}
+
+.lgin a:hover {
+    color: #C81623;
+    text-decoration: underline;
+}
+
+#broadside {
+    width: 34px;
+    height: 135px;
+    position: fixed;
+    right: 0;
+    top: 180px;
+}
+
+#broadside a{
+    display: block;
+    width: 34px;
+    height: 135px;
+    background: url(../images/icon.png) no-repeat -367px 0;
+}
+
+#broadside a:hover {
+    background: url(../images/icon.png) no-repeat -334px 0;
+}
+
+/*头部结束*/
+
+
+/*中部开始*/
+#container {
+    width: 1210px;
+    margin: 0 auto 200px;
+}
+
+.step {
+    position: relative;
+    width: 400px;
+    margin: 80px auto 0;
+}
+
+.step1,.step2 {
+    float: left;
+}
+
+.step2 {
+    margin-left: 110px;
+}
+
+.step3 {
+    margin-left: 350px;
+}
+
+.step1 span,.step2 span,.step3 span {
+    display: block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.step1 span {
+    color: white;
+    background: url(../images/reg-icon.png) no-repeat 0 -199px;
+}
+
+.step2 span,.step3 span {
+    color: #CCCCCC;
+    background: url(../images/reg-icon.png) no-repeat -45px -199px;
+}
+
+.step1 p {
+    margin-top: 10px;
+    color: #33BB44;
+}
+.step2 p,.step3 p {
+    margin-top: 10px;
+    color: #999999;
+}
+
+.step_line1,.step_line2 {
+    position: absolute;
+    top: 6px;
+    width: 126px;
+    height: 10px;
+    background: url(../images/reg-icon.png) no-repeat 0 -99px;
+}
+
+.step_line1 {
+    left: 60px;
+}
+
+.step_line2 {
+    left: 230px;
+}
+
+.content {
+    width: 400px;
+    margin: 50px auto 190px;
+}
+
+.form {
+    width: 400px;
+    height: 276px;
+}
+
+.form_item,.btn_item,.sub_btn {
+    width: 398px;
+    height: 58px;
+    border: 1px solid #DDDDDD;
+}
+.form_item {
+    margin-bottom: 38px;
+}
+
+.form_item:hover {
+    border: 1px solid #999999;
+}
+
+.sub_btn {
+    background: #E2231A;
+    color: white;
+    line-height: 58px;
+    text-align: center;
+    font-size: 18px;
+    border: 0;
+    margin-top: 60px;
+}
+
+.sub_btn:hover {
+    background: #C81623;
+}
+
+.btn_item {
+    cursor: pointer;
+    line-height: 58px;
+    text-align: center;
+    font-size: 15px;
+    color: #333333;
+}
+
+.btn_item:hover {
+    border: 1px solid #666666;
+}
+
+.form_item label {
+    display: block;
+    padding-left: 20px;
+    width: 87px;
+    height: 58px;
+    float: left;
+    font-size: 15px;
+    line-height: 58px;
+    color: #666666;
+    border-right: 1px solid #ddd;
+}
+
+.form_item>label>a {
+    display: block;
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin-top: 22px;
+    margin-right: 3px;
+    background: url(../images/icon.png) no-repeat -2px -153px;
+}
+
+.form_input {
+    width: 290px;
+    height: 50px;
+    float: left;
+}
+
+.form_item input {
+    float: left;
+    width: 190px;
+    height: 19px;
+    padding-left: 20px;
+    padding-top: 19px;
+    padding-bottom: 11px;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+}
+
+.fool {
+    height: 100px;
+    margin-top: 28px;
+}
+
+
+.fool a:first-child {
+    float: left;
+    font-size: 16px;
+    color: #333333;
+    line-height: 26px;
+
+}
+
+.fool a:last-child {
+    color: #333333;
+    font-size: 16px;
+    float: right;
+    line-height: 26px;
+}
+
+.fool a:first-child:hover,.fool a:last-child:hover {
+    color: #C81623;
+}
+
+.firm,.internation {
+    display: block;
+    width: 26px;
+    height: 26px;
+
+}
+
+.firm {
+    float: left;
+    background: url(../images/reg-icon.png) no-repeat 0 -159px;
+    margin-right: 5px;
+}
+
+.internation {
+    float: left;
+    background: url(../images/reg-icon.png) no-repeat -39px -159px;
+    margin-right: 8px;
+}
+
+/*中部结束*/
+
+/*尾部开始*/
+
+#footer {
+    width: 1210px;
+    color: #999999;
+    margin: 0 auto;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.links {
+    width: 100%;
+    padding: 30px 0 15px;
+    height: 18px;
+    text-align: center;
+    border-top: 1px solid #E6E6E6;
+}
+
+.links a {
+    color: #999999;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+}
+/*尾部结束*/
+
+/*遮罩层*/
+#shade {
+    position: fixed;
+    background: white;
+    z-index: 3000;
+    top: 20px;
+    left: 200px;
+    width: 950px;
+    height: 600px;
+    border: 4px solid rgba(0,0,0,.1);
+    border-radius: 3px;
+}
+
+.shade_tit {
+    width: 930px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 10px;
+    background: #F3F3F3;
+}
+
+.shade_tit i {
+    display: block;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    right: 8px;
+    top: 0;
+}
+
+.shade_img {
+    width: 100%;
+    height: 458px;
+    background: url(../images/zhezhao.png) no-repeat;
+}
+
+.shade_btn {
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    bottom: 0;
+}
+
+.abolish,.consent {
+    display: block;
+    width: 200px;
+    height: 54px;
+    font-size: 16px;
+    line-height: 54px;
+    text-align: center;
+}
+
+.abolish {
+    background: #E3E4E5;
+    color: #999999;
+    margin: 24px 20px 0 260px;
+    float: left;
+}
+
+.consent {
+    background: #EE2222;
+    color: white;
+    float: left;
+    margin-top: 24px;
+}
